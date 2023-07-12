@@ -1,0 +1,1414 @@
+{
+    "Do you feel full after eating your meals?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","very","extremely"],
+            "responses":["Thats great, eating enough food is essential for great physical and mental health!",
+                         "solid!, thats an essential for great physical and mental health",
+                         "Excellent!, eating properly is the first and best step"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","now and then","inconsistent","try to","most","occasionally"],
+            "responses":["Ok you're getting there, it's important to ensure this as it could indicate that you're not eating enough",
+                         "Ok thats a good start!, feeling full more consistently means you're eating enough for survival sake and good mental health",
+                         "Alright fair enough!, but we can try and increase the portion size a little better"],
+            "actions":["cut small portions of at least 3 different vegetables and them to your lunch and dinner"]
+        },
+        "negative":{
+            "patterns":["no","don't","not","never","rarely","rare","light"],
+            "responses":["I see, you should increase your portion size in case you're not eating enough",
+                         "oh right, try and increase your portion size a little more, you may not be eating enough"],
+            "actions":["cut small portions of at least 3 different vegetables and them to your lunch and dinner","progressively overload general meal portion size each week"]
+
+        }
+    },
+    "How many meals do you eat in a day?": {
+        "type": "text",
+        "positive":{
+            "patterns":["three","four","five", "3", "4","5"],
+            "responses":["Thats great, eating enough meals is essential for great physical and mental health!",
+                         "good stuff thats an essential for great physical and mental health",
+                         "nice!, eating properly is the first and best step"]
+        },
+        "medium":{
+            "patterns":["2","two"],
+            "responses":["on the right track, it's important to ensure this as it could indicate that you're not eating enough",
+                         "Ok, feeling full more means you're eating enough for survival sake and good mental health",
+                         "thats alright, but we can try and increase the portion size a little better"],
+            "actions":["Eat 3 meals a day"]
+        },
+        "negative":{
+            "patterns":["no","don't","not","never","rarely","1","one"],
+            "responses":["you should increase your meal amounts in case you're not eating enough",
+                         "try and increase your meal amounts a little more, you may not be eating enough"],
+            "actions":["Eat 3 meals a day"]
+
+        }
+    },
+    "Do you eat healthy food daily? specify foods if unsure?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","fruit","veg","chicken","fish","beans","lentils","brown rice","oats"],
+            "responses":["Thats great, eating healthy food is essential for great physical and mental health!",
+                         "solid!, thats an essential for great physical and mental health",
+                         "Excellent!, eating healthy is the first and best step"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to"],
+            "responses":["it's important to ensure this as it could indicate that you're not getting enough of the right nutrients",
+                         "eating healthy consistently ensures the bodies nutritional needs are met leading to good physical and mental health",
+                         "you could of course eat healthy food more consistently"],
+            "actions":["ensure there are protein sources in every meal","snack on fruits and vegetables in the place of crisps,sweets etc."]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you should start eating healthy foods to meet nutritional needs and therefore good physical and mental health",
+                         "start eating healthily, you will notice significant improvements in physical and mental health"],
+            "actions":["ensure there are protein sources in every meal","snack on fruits and vegetables in the place of crisps,sweets etc."]
+
+        }
+    },
+    "Do you take ZMA supplements at night daily?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["ZMA supplements are great for Testosterone production which helps man other things so good stuff",
+                         "ZMA supplements are really good for sleep and testosterone so well done",
+                         "ZMA supplements are great for sleep and testosterone, which has positive effects on many other things, good on you"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to"],
+            "responses":["ZMA helps to increase testosterone since what it consists of Zinc and Magnesium are essential nutrients for testosterone production, it also improves sleep so the more consistent you are the higher it will be"],
+            "actions":["take ZMA supplements every day before going to bed"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I see, ZMA helps to increase testosterone since what it consists of Zinc and Magnesium are essential nutrients for testosterone production"]
+                        ,
+            "actions":["take ZMA supplements every day before going to bed"]
+
+        }
+    },
+    "Do you drink 2 litres of water a day?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["drinking lots of water is really important for good physical and mental health so thats good",
+                         "solid!",
+                         "drinking lots of water is essential for the body"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to"],
+            "responses":["drinking 2 litres is really important as it helps many functions in the body","drinking 2 litres more consistently would be better though"],
+            "actions":["drink 2 litres of water every day with a METAL flask"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I see, drinking 2 litres of water at least is important for many physical and mental funtions",
+                         "Ah!, I would suggest to drink more water is an essential component so it makes sense that not drinking enough has a link to mental health related issues"],
+            "actions":["drink 2 litres of water every day with a METAL flask"]
+
+        }
+    },
+    "Do you go outside as soon as you wake up each day?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["its really important to be in daylight first thing in the morning, vitamin D from the sun is what allows testosterone production so well done",
+                         "solid!, this is very good for testosterone production due to vitamin D",
+                         "Excellent!, the vitamin D from the sun first thing is really good for T levels"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to"],
+            "responses":["doing this more consistently would improve your T levels though","lets try and up the consistency as this is really helpful for testosterone production"],
+            "actions":["go outside first thing in the morning when you wake up"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["this is really important as Testosterone levels are low first thing in the morning so going outside in daylight increases it"],
+            "actions":["go outside first thing in the morning when you wake up"]
+
+        }
+    },
+    "How long do you spend outside each day?":{
+        "type": "numeric",
+        "positive":{
+            "bound":"30",
+            "patterns":["lot", "quite a bit","all the time","lots","consistent","good amount","long","good"],
+            "responses":["you're outside for a solid amount of time then, another important but underrated mental health hack"]
+        },
+        "medium":{
+            "bound":"10",
+            "patterns":["a little bit","not long","not much","a bit","sometimes"],
+            "responses":["okay so you go outside for an alright amount of time then, go outside more the benefits will surprise you"],
+            "actions":["do an activity outside for 30 minutes daily e.g. walking, running"]
+        },
+        "negative":{
+            "bound":"0",
+            "patterns":["don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I see you don't go out much, its really important for mental health but its overlooked quite a bit"],
+            "actions":["do an activity outside for 15 minutes daily e.g. walking, running"]
+        }
+    },
+    "How long do you exercise for each day?":{
+        "type": "numeric",
+        "positive":{
+            "bound":"45",
+            "patterns":["a lot", "quite a bit","all the time","lots","consistent","good amount","long","good"],
+            "responses":["This is a solid amount of exercise, Well done!","Nice!","Good job!"]
+        },
+        "medium":{
+            "bound":"15",
+            "patterns":["a little bit","not long","not much","a bit","sometimes","moderate","decent"],
+            "responses":["ok so you do a moderate amount but you could do more if you wanted to","thats decent but you can do more than that"],
+            "actions":["Exercise for an hour a day e.g. gym,running,calisthenics etc."]
+        },
+        "negative":{
+            "bound":"0",
+            "patterns":["don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you don't do much exercise which could be an issue", "ok you should start exercising then"],
+            "actions":["Exercise for 30 minutes a day e.g. gym,running,calisthenics etc."]
+        }
+    },
+    "How long do you meditate for each day?":{
+        "type": "numeric",
+        "positive":{
+            "bound":"10",
+            "patterns":["a lot", "quite a bit","all the time","lots","consistently","good amount","long","good"],
+            "responses":["This is a solid amount of exercise, Well done!","Nice!","Good job!"]
+        },
+        "medium":{
+            "bound":"5",
+            "patterns":["a little bit","not long","not much","a bit","sometimes","moderate","decent"],
+            "responses":["Ok you meditate a moderate amount but you could do more if you wanted to","thats decent but you can meditate longer than that"],
+            "actions":["meditate for 10 minutes daily with medito"]
+        },
+        "negative":{
+            "bound":"0",
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you don't meditate much then which could be an issue","ok you should start doing meditation then"],
+            "actions":["meditate for 5 minutes daily with medito"]
+        }
+    },
+    "Do you write about how you can improve for the next day daily?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regular","all the time","often","daily","do it","too much","I do"],
+            "responses":["writing down what you can do to become better each day can make you a much better person in the long term your on track",
+                         "focusing on small improvement daily allows you to progress more than you think, excellent",
+                         "Excellent!, daily improvements well make you better than you could imagine in the long term"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to","most"],
+            "responses":["doing this more consistently will make you improve a lot more in the long run","lets try and up the consistency as this is really helpful for reaching goals more frequently etc."],
+            "actions":["with a physical notebook, journal a list of improvements for the next day as bullet points"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["this is really important as doing this and achieving those goals to improve will give you confidence which is good for mental health"],
+            "actions":["with a physical notebook, journal a list of improvements for the next day as bullet points"]
+
+        }
+    },
+    "Do you write about 3 or more things you are grateful for daily?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["writing down what you are grateful for each day will make you a much happier person so solid",
+                         "solid!, by idenitfying things you are grateful for you find more joy in simple things",
+                         "being grateful for things will make you happier so its good you acknowledged it"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to"],
+            "responses":["you're getting there, doing this more consistently will make you a much happier person","alright, lets try and up the consistency as this as it could make you much happier than you currently are"],
+            "actions":["with a physical notebook, journal at least 3 things you are grateful for"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I see, this is really important as doing this will make you a much happier person"],
+            "actions":["with a physical notebook, journal at least 3 things you are grateful for"]
+
+        }
+    },
+    "How long do you read for on a daily basis?":{
+        "type": "numeric",
+        "positive":{
+            "bound":"30",
+            "patterns":["a lot", "quite a bit","all the time","lots","consistent","good amount","long","good"],
+            "responses":["This is a solid amount of reading, Well done!","Nice!","Good job!"]
+        },
+        "medium":{
+            "bound":"15",
+            "patterns":["a little bit","not long","not much","a bit","okay","moderate","decent","alright","sometimes"],
+            "responses":["Ok you read a moderate amount but you could do more if you wanted to","thats decent but you can read longer than that"],
+            "actions":["read for at least 30 minutes daily with a z library book"]
+        },
+        "negative":{
+            "bound":"0",
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I see you don't read much which could be an issue","ok you should start doing reading then"],
+            "actions":["read for at least 15 minutes daily with a z library book"]
+        }
+    },
+    "Do you spend little time on social media?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","do it","too much","I do"],
+            "responses":["Thats great!, not using social media as much will improve your mental health and allow you to do other important things",
+            "solid!, using social media a lot can make you feel you are missing out on things which is best to avoid",
+            "Excellent!, using social media less allows you to prioritize more important stuff"]
+        },
+        "medium":{
+            "patterns":["sometimes","weekly","every now and then","a little bit","try to"],
+            "responses":["doing this less consistently will make you a much happier person","lets try use it less because it will make you happier"],
+            "actions":["set a daily limit on social media apps for 10 minutes"]
+        },
+        "negative":{
+            "patterns":["no","don't","not","never","rarely","rare","not really","never tried"],
+            "responses":["I see, reducing this is really important as doing this will make you a much happier person"],
+            "actions":["delete social media apps and only use web version"]
+        }
+    },
+    "Do you avoid watching or looking at explicit content?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","do it","too much","I do"],
+            "responses":["Thats great!, watching this kind of content is harmful as it messes up dopamine, reduces testosterone and lowers motivation to do things",
+            "solid!, explicit content should be avoided at all costs",
+            "Excellent!, your not wasting time on harmful content"]
+        },
+        "medium":{
+            "patterns":["sometimes","weekly","every now and then","a little bit","try to", "inconsistent","most"],
+            "responses":["doing this less consistently will make you a much happier person, improve testosterone and increase motivation to achieve goals. It's best to progressively deload this sort of habit instead of cutting it off straight away. This is because you will get addicted again once you fall back into the habit"],
+            "actions":["progressively deload explicit content consumption each month to control addiction"]
+        },
+        "negative":{
+            "patterns":["no","don't","not","never","rarely","rare", "not really","never tried"],
+            "responses":["I see, doing this excessively is very harmful as it kills testosterone, motivation and happiness so you need to stop the consumption of it"],
+            "actions":["progressively deload explicit content consumption each month to control addiction"]
+        }
+    },
+    "Do you hang out with friends on a weekly basis?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","consistent"],
+            "responses":["Thats great!, since we are social creatures it is pretty much a need to do this for mental health"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to","most"],
+            "responses":["being isolated at times is not healthy for us as we are social creatures"],
+            "actions":["schedule time in the week to hang out with any friend"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["social connection is really important and shouldn't be neglected, at least a friend is enough"],
+            "actions":["go up to a new group of people and introduce yourself","join clubs and societies to make new friends"]
+
+        }
+    },
+    "Do you trim facial hair on a weekly basis? if so what length do you trim at?": {
+        "type": "text",
+        "positive":{
+            "patterns":["3 millimeteres","4 millimetres","3mm","4mm"],
+            "responses":["your facial hair would have a clean appearance then which is good"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to","most"],
+            "responses":["facial hair if unkept for too long could give an unhygienic appearance"],
+            "actions":["patchy facial hair on face with any electric razor once a week preferrably at 3 or 4mm"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["unless you don't grow facial hair, not doing this will make you look unhygienic"],
+            "actions":["patchy facial hair on face with any electric razor once a week preferrably at 3 or 4mm"]
+
+        }
+    },
+    "Do you ensure your neck is clean shaven?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","consistent"],
+            "responses":["from that I assume your neck looks really neat", "so you have a clean neck then, solid!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to","most"],
+            "responses":["I'm going to assume that at times your neck looks a little unneat then assuming you grow facial hair"],
+            "actions":["use foil razor to clean shave neck weekly making sure you apply warm water on it before"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["unless you don't grow facial hair, not doing this will give your face an undefined appearance"],
+            "actions":["use foil razor to clean shave neck weekly making sure you apply warm water on it before"]
+
+        }
+    },
+    "Do you ensure a clear neck boundary on a weekly basis?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","consistent"],
+            "responses":["from that I assume your neck line is crisp", "so we should see defined line on the neck then"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistent","try to","most"],
+            "responses":["having a clear neck boundary would make your facial appearance look neater","it would look better if you made a consistent neck boundary"],
+            "actions":["ensure a clean neck boundary by using an electric razor with a straight edge every 2 days"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["not having a defined neck line could make the face lose definition so its best to do so, it also doesn't look neat"],
+            "actions":["ensure a clean neck boundary by using an electric razor with a straight edge every 2 days"]
+
+        }
+    },
+    "Do you pluck your monobrow on a weekly basis if you have one?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","consistent"],
+            "responses":["so you have neat looking eyebrows then, nice!", "you must have defined eyebrows then!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistent","try to","most"],
+            "responses":["if you grow a monobrow easily then it could reduce the symmetrical look of the face if it's not consistent","it would be better if you consistently shaved the monobrw for better appearance if there"],
+            "actions":["use a ruler to align either edge of nose to the eyebrows for making a boundary every 2 days","use tweezers to remove any hair above the nose with the boundary you made every 2 days"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["if you grow a monobrow, this would not really look good"],
+            "actions":["use a ruler to align either edge of nose to the eyebrows for making a boundary every 2 days","use tweezers to remove any hair above the nose with the boundary you made every 2 days"]
+
+        }
+    },
+    "Do you pluck nose hair on a weekly basis?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","consistent"],
+            "responses":["good stuff", "nice!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistent","try to","most"],
+            "responses":["try and be more consistent if it grows out quickly","it may not look nice if it grows quick"],
+            "actions":["use tweezers or scissors to cut or pluck nose hair weekly"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["ok not good if your nose hair grows quickly"],
+            "actions":["use tweezers or scissors to cut or pluck nose hair weekly"]
+
+        }
+    },
+    "Do you get monthly haircuts or trim own hair on a weekly basis?": {
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","consistent"],
+            "responses":["your hair should look good then", "you must have neat hair then"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistent","try to","most"],
+            "responses":["your hair could like nicer adding to your overall appearance if you are more consistent","it may not look nice if it grows quick"],
+            "actions":["go to local barbers for haircut once a month"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["unkept hair can make appearance worse"],
+            "actions":["go to local barbers for haircut once a month"]
+
+        }
+    },
+    "Do you have a good skincare routine? What kind of skincare products do you currently use?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","consistent","retinol","moisturise","sunscreen","vitamin c"],
+            "responses":["ok by this Im guessing you have clean skin then", "solid!"]
+        },
+        "medium":{
+            "patterns":["not great","ok","average","mediocre","try to","basic","just"],
+            "responses":["having a good skincare routine is important for a good appearance"],
+            "actions":["use a cleanser every day while showering","use moisturiser every day and night","use sunscreen every day","apply retinol every few days slowly reducing the number every 10 weeks e.g.3 then 2 then 1"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["if you don't have clear looking skin, this would help"],
+            "actions":["use a cleanser every day while showering","use moisturiser every day and night","use sunscreen every day","apply retinol every few days slowly reducing the number every 10 weeks e.g.3 then 2 then 1"]
+
+        }
+    },
+    "Do you go to the gym often, If so how many days of the week?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","3","4","5","three","four","five"],
+            "responses":["you must have a decent physique then", "solid! you must have a good physique"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistent","try to","1","2","7","every day","once","twice","seven","most"],
+            "responses":["going to the gym more consistently will improve your physique faster"],
+            "actions":["go the gym 5 days a week with any routine of choice, when you can do 15 reps of an exercise move on to a higher weight","for progressive overload update reps and weight each week on a phone note app, try and do one greater rep or if you reached 15 reps then up the weight a bit for the next week"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["going to the gym can give you a more attractive and healthy looking appearance, its also great for mental health"],
+            "actions":["go the gym 3 days a week with any routine of choice, when you can do 15 reps of an exercise move on to a higher weight","for progressive overload update reps and weight each week on a phone note app, try and do one greater rep or if you reached 15 reps then up the weight a bit for the next week"]
+
+        }
+    },
+    "Do you accessorize clothing properly? Describe it if unsure?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","layer","jewlerry","clean"],
+            "responses":["Im guessing you look very presentable then", "solid! you must have good style"]
+        },
+        "medium":{
+            "patterns":["sometimes","every now and then","inconsistent","try to","most"],
+            "responses":["dressing well will make you feel more confident and give off a good impression to others also"],
+            "actions":["wear at least a simple watch on the non dominant hand, one ring and a necklace","wear a layer e.g. coat, flannel or varsity jacket over a plain T shirt"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["doing this well will make you stand out a lot"],
+            "actions":["wear at least a simple watch on the non dominant hand, one ring and a necklace","wear a layer e.g. coat, flannel or varsity jacket over a plain T shirt"]
+
+        }
+    },
+    "How often do you brush your teeth?":{
+        "type": "text",
+        "positive":{
+            "patterns":["regularly","all the time","often","twice","2","quite a bit","lot","two"],
+            "responses":["so your oral hygiene is at a good standard I assume", "okay so oral hygiene is fine at the moment"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistent","try to","every day","once","1","one"],
+            "responses":["you could brush more often for cleaner teeth, you will reduce the chances of bad breath making you less respulsive","doing it more often could improve your oral hygiene though"],
+            "actions":["brush teeth every morning and night"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["not doing this habit is one reason people may choose to avoid you, bad breath can make people uncomfortable"],
+            "actions":["brush teeth every morning and night"]
+
+        }
+    },
+    "Do you floss every day?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["you won't look like you have food stuck in your teeth then!", "good stuff!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistently","try to","most"],
+            "responses":["your teeth would have a neater and cleaner appearance if done more consistently"],
+            "actions":["floss every morning before brushing teeth"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["there is a chance of having food stuck in your teeth which can make your breath worse"],
+            "actions":["floss every morning before brushing teeth"]
+
+        }
+    },
+    "Do you scrape your tongue every day?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["you must have decent breath then", "nice!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistently","try to","most"],
+            "responses":["this is an underrated but massive contributer to bad breath so I suggest doing this more often","this contributes a lot to bad breath so I suggest doing it more frequently"],
+            "actions":["scrape your tongue with a tongue scraper every day with emphasis on the far back of the tongue"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["not doing this will make your breath smell bad","this creates a higher chance of bad breath"],
+            "actions":["scrape your tongue with a tongue scraper every day with emphasis on the far back of the tongue"]
+
+        }
+    },
+    "Do you use mouth wash every day?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["you must have decent breath then", "nice!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistently","try to","most"],
+            "responses":["this can help clean your mouth better improving hygiene so being more consistent helps","this contributes a lot to bad breath so I suggest doing it more frequently"],
+            "actions":["use a non alcoholic mouthwash everyday swishing it in your mouth for at least 30 seconds"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["using this could be more helpful though in cleaning your mouth","this creates a higher chance of bad breath"],
+            "actions":["use a non alcoholic mouthwash everyday swishing it in your mouth for at least 30 seconds"]
+
+        }
+    },
+    "Do you wash your hands on a regular basis?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["thats good", "nice!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistently","try to","most"],
+            "responses":["doing it more consistently could improve overall scent"],
+            "actions":["wash hands every time you use the bathroom, before and after eating"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I would do this more often as it can emphasis body odour","this creates a higher chance of percieved body odour"],
+            "actions":["buy basic handwashes for kitchen and all bathrooms", "wash hands every time you use the bathroom, before and after eating"]
+
+        }
+    },
+    "Do you shower with soap on a daily basis?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["self explanatory here", "good!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistently","try to","most"],
+            "responses":["should be consistent though as it could make you smell bad"],
+            "actions":["shower with soap every morning before your day starts"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I would do this more often as it can emphasis body odour","this creates a higher chance of percieved body odour"],
+            "actions":["buy any basic body lotion", "shower with soap every morning before your day starts"]
+
+        }
+    },
+    "Do you apply a good scent on a daily basis?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["self explanatory here", "good!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","weekly","every now and then","inconsistently","try to","most"],
+            "responses":["should be consistent though as it could make you smell bad"],
+            "actions":["apply deodorant as well as a body spray or fragrance every day ensuring its not too much"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I would do this more often as it can emphasis body odour","this creates a higher chance of percieved body odour"],
+            "actions":["buy a good deodorant online","buy a good fragrance online","apply deodorant as well as a body spray or fragrance every day ensuring its not too much"]
+
+        }
+    },
+    "Do you cut finger and toe nails on a weekly basis?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["thats good, people with long figernails can be seen as repulsive", "good!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most"],
+            "responses":["Do this more often as long fingernails can irk people and can make you repulsive as it is no hygienic"],
+            "actions":["cut finger and toe nails with a nail cutter once a week"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I would do start doing this as long fingernails can be repulsive to people","this could make you more repulsive"],
+            "actions":["cut finger and toe nails with a nail cutter once a week"]
+
+        }
+    },
+    "Do you shave pubic hair on a weekly basis?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["phew!, even doing this will reduce body odour as sweat is more likely", "thats an important thing out of the way"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most"],
+            "responses":["doing this more frequently would reduce overall body odour though"],
+            "actions":["using any electric razor, shave off pubic hair once a week"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["please start doing this as it contributes to body odour"],
+            "actions":["using any electric razor, shave off pubic hair once a week"]
+        }
+    },
+    "Do you shave armpit hair on a weekly basis?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["killing two bird with one stone!, it reduced body odour and also makes applying deodorant more effective"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most"],
+            "responses":["doing this more frequently would reduce overall body odour though","it makes applying deodorant more effective though as it is more likely to stick when there is direct contact to the skin"],
+            "actions":["using any electric razor, shave off armpit hair once a week"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["please start doing this as it contributes to body odour", "start doing this and your deodorant will actually work better"],
+            "actions":["using any electric razor, shave off armpit hair once a week"]
+        }
+    },
+    "Do you wash all your clothes on a weekly basis?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["good call, this is an obvious one of course but clothes can contribute to an overall bad smell and if clothes are stained then it doesn't look good"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most"],
+            "responses":["I would do this more to reduce the chances of having a bad smell","I'd do it more frequently in case bad smell is what puts people off"],
+            "actions":["put clothes in a wash once a week and dry them straight after","iron clothes weekly to remove wrinkly appearance"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["please start doing this as it contributes to bad smell", "start doing this and you will make better impressions"],
+            "actions":["buy good washing detergent", "put clothes in a wash once a week and dry them straight after","iron clothes weekly to remove wrinkly appearance"]
+        }
+    },
+    "Would you consider yourself a confident person?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["this is good because if you feel confident then more people will respect you because of it, it also means you are less likely to take bs from people"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["lacking confidence can have an impact on how other people treat you, harsh as it is but you will allow people to disrespect you without it"],
+            "actions":["always try to walk with good posture","spend time on your strengths at least once a week","create small goals for each week and achieve them"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["lacking confidence can have an impact on how other people treat you, harsh as it is but you will allow people to disrespect you without it"],
+            "actions":["always try to walk with good posture","spend time on your strengths at least once a week","create small goals for each week and achieve them"]
+        }
+    },
+    "Would others say you have a good appearance?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","they do"],
+            "responses":["another harsh truth but looks can dictate a lot about how people treat you regardless of tyour personality, having a better appearance will make you more respected"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["you can try and improve it then because as harsh as it sounds people will respect you more and not treat you poorly","try and improve it as looking better will get you more respect"],
+            "actions":["practice good grooming habits","do physical activity for at least 30 minutes every day"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you can try and improve it then because as harsh as it sounds people will respect you more and not treat you poorly","try and improve it as looking better will get you more respect"],
+            "actions":["practice good grooming habits","do physical activity for at least 30 minutes every day"]
+        }
+    },
+    "Do you maintain eye contact when you talk to people?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["This tells others that you are confident and are paying attention when they are talking so thats good"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try and pay more attention to eye contact because even small things like this can signal to other people that your social skills may not be great, you have low confidence etc."],
+            "actions":["use triangle technique for eye contact - look between different eyes and the mouth to slightly alter focus and reduce awkwardness"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["try and pay more attention to eye contact because even small things like this can signal to other people that your social skills may not be great, you have low confidence etc."],
+            "actions":["use triangle technique for eye contact - look between different eyes and the mouth to slightly alter focus and reduce awkwardness"]
+        }
+    },
+    "Do you have slow movements and gestures?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["This is good because it gives the impress that you are comfortable and relaxed which also ties into confidence"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try and chill a bit more and slow down movements as you will appear more confident by doing so"],
+            "actions":["take deep breaths to calm yourself down in social interactions to help calmer movements and gestures"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["try and chill a bit more and slow down movements as you will appear more confident by doing so"],
+            "actions":["take deep breaths to calm yourself down in social interactions to help calmer movements and gestures"]
+        }
+    },
+    "Do you smile when talking to people?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["This shows that you are enjoying the conversation which can therefore make people like you more so solid for that"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["smiling more when talking to people will show appreciation and hence people will reciprocate so try and do it more"],
+            "actions":["try to smile when someone is talking about something positive"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["try to start smiling in conversations and you may notice that people feel more comfortable around you and therefore open up"],
+            "actions":["try to smile when someone is talking about something positive"]
+        }
+    },
+    "Do you speak slow enough just for clarity and with a deep voice?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["a good sense of control and confidence would be shown then!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["Doing this is really important because it gives you time to think more clearly about what you want to say, this will therefore make you stutter less and appear more confident in speech"],
+            "actions":["practice talking with a deep voice infront of the mirror every day and speak slower"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["Doing this is really important because it gives you time to think more clearly about what you want to say, this will therefore make you stutter less and appear more confident in speech"],
+            "actions":["practice talking with a deep voice infront of the mirror every day and speak slower"]
+        }
+    },
+    "Do you care little about what people think about you?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["a good skill to have, inevitably not everyone will like you and some people may disagree with you but at the end of the day true confidence is not about making everyone like you but about being completely secure even if someone doesn't"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["if you have a strong set of core values you follow by and know that they work for you, this would be the best way to stop caring as much"],
+            "actions":["focus on self validation e.g. improving strengths to care less", "Learn to embrace uncontrollable imperfections to care less and focus on strengths"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["this is showing you may take people's opinions too seriously"],
+            "actions":["focus on goals and personal growth to care less about what other people think"]
+        }
+    },
+    "Do you have a neutral/calm tone when you speak?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["this is good as sometimes on one hand being being really loud all the time gives the impression of neediness and insecurity which can be a repulsive behaviour and on the other hand being too quiet will simply make you unheard and ignored"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try and focus better on this as it gives an impression of being more mature, being too loud can be percieved as annoyin"],
+            "actions":["try to enhance or diminish the volume of current speech to make it calmer but neutral"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["try and focus better on this as it gives an impression of being more mature, being too loud can be percieved as annoying"],
+            "actions":["try to enhance or diminish the volume of current speech to make it calmer but neutral"]
+        }
+    },
+    "Do you listen effectively in comparison to talking?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["being likeable as about paying attention to others more as opposed to talking about yourself all the time and being self centred so good stuff"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["being likeable as about paying attention to others more as opposed to talking about yourself all the time so try and work on this"],
+            "actions":["mindfully listen and stay silent while another person is talking about something","ask for clarification on the matters a person was talking about to show you were listening"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["being likeable as about paying attention to others more as opposed to talking about yourself all the time so try and work on this"],
+            "actions":["mindfully listen and stay silent while another person is talking about something","ask for clarification on the matters a person was talking about to show you were listening"]
+        }
+    },
+    "Do people laugh when or if you attempt to make jokes?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["this is a good sign of being likeable as it clearly shows people enjoy the conversation your having"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["thats okay!, to be honest it is not a requirement to have to be funny all the time but every now and then can make you a more interesting person"],
+            "actions":[]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["this may show that your friends may not show as much interest in you, it could be a signof ignorance"],
+            "actions":["try and branch to make new friends who truly like your presence and appreciate you"]
+        }
+    },
+    "Are you good at identifying when someone says a joke?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["this is good as it shows you pay attention to the conversation and appreciate what the other person is saying which in turn makes you more likeable through reciprocity"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["thats okay!, sometimes you may not pick up on a joke simply due to the specialisation of a subject matter but still trying to laugh even then will make you more likeable"],
+            "actions":[]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["this may mean you need to work on social skills a little but this will come with experience"],
+            "actions":["try and make more friends to learn more about social cues"]
+        }
+    },
+    "Are you good at not taking jokes seriously?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["learning to laugh at yourself and even going to the extent of self deprecating humour will make you more relatable and likeable"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["I can understand that jokes can sometimes feel personal and get to you a little"],
+            "actions":["improve confidence through self improvement to make you more sure of yourself to not take jokes too seriously"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["this may mean you need to work on social skills a little but this will come with experience"],
+            "actions":["improve confidence through self improvement to make you more sure of yourself to not take jokes too seriously"]
+        }
+    },
+    "Would you consider yourself as a relatable person?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["being a relatable person gives you a sense of familiarity to others which humans tend towards naturally"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["its okay to not have the same experiences as everyone else but trying to relate to someone when you can in conversation can help a lot"],
+            "actions":["if people talk about a negative situation try and follow up with a similar situation and reassure the person through it"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I don't think this is true, you may just not be with the right kind of friends"],
+            "actions":["show that you agree on something by gving a verbal cue if you do to appear more relatable"]
+        }
+    },
+    "Do you openly give compliments to others?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["doing this not only makes others feel better but also makes you feel good because you made someone else feel happy"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try and compliment people more if you genuinely like something about them as it will make people like you more as you are showing more appreciation of them"],
+            "actions":["openly give compliments to other people if you like certains things about a person e.g. what they are wearing, hairstyle etc."]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare","haven't"],
+            "responses":["try and compliment people more if you genuinely like something about them as it will make people like you more as you are showing more appreciation of them"],
+            "actions":["openly give compliments to other people if you like certains things about a person e.g. what they are wearing, hairstyle etc."]
+        }
+    },
+    "Are you (cut throat/a bold person/stand up for yourself) when you need to be?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["it may not feel great but it is necessary at times if you feel you or others are being disrespected, it also makes sure ou don't for people's manipulation and games easily"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["I know its difficult but working on being this way will make you avoid manipulation as well as gain more respect from people"],
+            "actions":["openly point out behaviour and say 'don't joke about it' if you don't like it"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I know its difficult but working on being this way will make you avoid manipulation as well as gain more respect from people at the moment you are putting yourself as a target since your not calling out this behavior"],
+            "actions":["openly point out behaviour and say 'don't joke about it' if you don't like it"]
+        }
+    },
+    "Do you work on learning skills which have monetary value?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["solid!, simply an hour a day put into useful skills will pay dividends in the long term"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["okay you're getting there, scheduling it to do it more consistently can subconsciously gives a sense of progression as it can actually be utilised, progression is the most important thing in relation to a feeling of purpose and happiness"],
+            "actions":["schedule an hour a day to learning/working on a skill e.g. doing a project or doing an online course"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["scheduling it to do it more consistently can subconsciously gives a sense of progression as it can actually be utilised, progression is the most important thing in relation to a feeling of purpose and happiness"],
+            "actions":["schedule an hour a day to learning/working on a skill e.g. doing a project or doing an online course"]
+        }
+    },
+    "Do you regularly do Hobbies you enjoy without needing to monetize it?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["excellent, putting in time at least once a week for this will make you happier and give a sense of enjoyment and meaning"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["thats alright but doing this more often could give you a greater sense of happiness and satisfaction"],
+            "actions":["schedule an hour a day to learning/working on a skill e.g. doing a project or doing an online course"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["doing this more often could give you a greater sense of happiness and satisfaction"],
+            "actions":["schedule an hour a day to learning/working on a skill e.g. doing a project or doing an online course"]
+        }
+    },
+    "Do you have an occupation e.g. a job or business you enjoy?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["excellent, having some sort of occupation will keep you busy throughout the day if you currently aren't and getting money from it is what gives you the sense of satisfaction for doing the job"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["thats fine, try and get a job which is more sustainable based on what you currently do e.g. school or uni, by getting extra cash you will gain more satisfaction in life, remember that money may not buy happiness but truthfully not having money will put you in a much worse situation, it does not have to be a massive job"],
+            "actions":["find a money earning job which you can do on at least a weekly basis"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["try and get a job which is sustainable based on what you currently do e.g. school or uni, by getting extra cash you will gain more satisfaction in life, remember that money may not buy happiness but truthfully not having money will put you in a much worse situation, it does not have to be a massive job"],
+            "actions":["find a money earning job which you can do on at least a weekly basis"]
+        }
+    },
+    "Do you have hobbies involving helping others?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do"],
+            "responses":["helping others will give you a sense of greater meaning, happiness and purpose so well done"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try and do things like this more often as it will give you a feeling of greater meaning, happiness and purpose"],
+            "actions":["find a hobby or occupation that allows you to genuinely help people e.g. teaching, being a synthesizer of information"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start doing things to help people more often as it will give you a feeling of greater meaning, happiness and purpose"],
+            "actions":["find a hobby or occupation that allows you to genuinely help people e.g. teaching, being a synthesizer of information"]
+        }
+    },
+    "Do you ensure your face is only washed with cold water?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only","cold shower"],
+            "responses":["Excellent!, the problem with hot water is that it can dry or inflame the face"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["do this more consistently as you may notice a large improvement in the appearance of your face skin"],
+            "actions":["when taking shower turn the dial to cold when washing the face, ensure you don't use SOAP on the face and preferably a CLEANSER instead"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start doing this as you may notice a large improvement in the appearance of your face skin"],
+            "actions":["when taking shower turn the dial to cold when washing the face, ensure you don't use SOAP on the face and preferably a CLEANSER instead"]
+        }
+    },
+    "Do you ensure you use a cleanser every day?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["Excellent!, this is removing any dirt buildup in the fac which can potentially lead to pimples and achne etc."]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["do this more consistently as it removes small bits of dirt on the face, I can reduce the chances of pimples and achne"],
+            "actions":["use a cleanser every morning during or after a shower, some good brands are Cerave and Cetaphil"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["begin with this as it removes small bits of dirt on the face, I can reduce the chances of pimples and achne"],
+            "actions":["use a cleanser every morning during or after a shower, some good brands are Cerave and Cetaphil"]
+        }
+    },
+    "Do you use moisturiser every day and night?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["Excellent!, this gives the face more of a glowing appearance making it look better and in the long term it will make the skin texture more smooth"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try doing this as it gives the skin more of a glow which looks good"],
+            "actions":["use your moisturiser every day after a shower and every night before bed"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["begin with this as it removes small bits of dirt on the face, I can reduce the chances of pimples and achne"],
+            "actions":["use a morning every every day after a shower and every night before bed, some good brands are Cerave and Cetaphil"]
+        }
+    },
+    "Do you layer moisturiser with sunscreen every day?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["Excellent!, this will protect your face against sun rays which in the long term can damage your skin, it also gives the skin an extra glow"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try doing this as it protects the skin from damage long term and gives the skin more of a glow"],
+            "actions":["apply your sunscreen over moisturiser applied in the morning"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start this as it protects the skin from damage long term and gives the skin more of a glow"],
+            "actions":["apply sunscreen over moisturiser applied in the morning, a good brand is Altruist"]
+        }
+    },
+    "Do you use retinol every night with at least a 2 days gap?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["this will encourage skin cell production and collagen making the skin look better so well done"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["try it as this will encourage skin cell production and collagen making the skin look better so well done"],
+            "actions":["apply your retinol to the skin every 2 days and progressively deload the day gap every 10 weeks"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start now as this will encourage skin cell production and collagen making the skin look better so well done"],
+            "actions":["apply retinol to the skin every 2 days and progressively deload the day gap every 10 weeks example brands are the ordinary"]
+        }
+    },
+    "Do you exfoliate your skin once a week?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["This is good as any excess dirt on the skin is removed throughout the week"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle"],
+            "responses":["do this more consistently as it can avoid the sudden buildup of small bumps and black heads on the skin etc."],
+            "actions":["use your exfoliator once a week after showering"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start this as it can avoid the sudden buildup of small bumps and black heads on the skin etc."],
+            "actions":["use an exfoliator once a week after showering recommended brands are the ordinary"]
+        }
+    },
+    "Do you always layer clothing? e.g. with Flannels,coats or varsity jackets?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["nice!, layering clothing looks really good and can make you stand out if you do it right"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["That's okay!, sometimes it may not be needed for example in the summer"],
+            "actions":[]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you don't have to do it all the time but especially in colder months, layering looks really good"],
+            "actions":["buy a nice jacket to layer over clothes in winter","buy a flannel and or varsity jacket to layer in summer"]
+        }
+    },
+    "Do you wear jewlerry? e.g. chains, rings and watches?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["solid, its an easy but effective way to make your overall fits stand out"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["cool!, so you wear it every now and then but it's not something you wear consistently which is completely fine"],
+            "actions":[]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I suggest trying it out once in a while, it can make the overall fits stand out more and give an edgy aesthetic"],
+            "actions":["buy and wear a cheap necklace of any choice","buy and wear a cheap ring of any choice","buy and wear a cheap watch of any choice on the non dominant hand"]
+        }
+    },
+    "Are clothes you wear non-branded?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["this is good because expensive fits are not required at all to make an outfit look good, it wastes a lot of money which should be incentivised to save"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["if possible try and incentivise cheap but good looking fits because at the end of the day money shouldn't have high weightage on clothing since it is not the biggest necessity"],
+            "actions":["buy more cheap but good looking fits e.g. plain clothing"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I would suggest you save your money a bit more and invest it into other things"],
+            "actions":["buy cheaper but good looking fits e.g. plain clothing"]
+        }
+    },
+    "Do clothes you wear have little to no designs on them?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["having plain clothing can make the overall fit seem more clean and professional giving the impression of a mature fashion sense"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["you're getting there, try and make most of your clothing like this because it is the best case to look professional but in a casual way"],
+            "actions":["buy cheap clothing that fits well which is plain and has minimal patterns"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["I would suggest you save your money a bit more and invest it into other greater necessities"],
+            "actions":["buy cheap clothing that fits well which is plain and has minimal patterns"]
+        }
+    },
+    "Do you cuff jeans when you wear them?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["Nice!, it looks more neat","Cool!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["cuff your jeans more often, it looks neat"],
+            "actions":["cuff jeans any time you wear them"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start cuffing jeans, it looks neater"],
+            "actions":["cuff your jeans(roll them up a bit on the bottom)"]
+        }
+    },
+    "Do you wear clean shoes?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I do","only"],
+            "responses":["Nice!, it looks more neat","Cool!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["clean your shoes more often, it looks neat"],
+            "actions":["clean your shoes once a week"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start cleaning your shoes, it makes your overall fit look more neat"],
+            "actions":["clean your shoes once a week"]
+        }
+    },
+    "Are you mindful of your own improvement or self development?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am"],
+            "responses":["this is a good habit, we need to realise that we all have strengths and weaknesses but people only pay attention to strengths but pay very little to weaknesses and go unnoticed in comparison to how you notice them therefore the best thing to do is try your best to work on insecurities if you can whilst also embracing them along the way as it could be a likeable feature without you realising"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["try and realise that we all have strengths and weaknesses but people only pay attention to strengths but pay very little to weaknesses and go unnoticed in comparison to how you notice them therefore the best thing to do is try your best to work on insecurities if you can whilst also embracing them along the way as it could be a likeable feature without you realising"],
+            "actions":["prioritise mental health to embrace and improve insecurities like intelligence","if actions can be taken to work on intelligence insecurities pinpoint and work on them"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["try and realise that we all have strengths and weaknesses but people only pay attention to strengths but pay very little to weaknesses and go unnoticed in comparison to how you notice them therefore the best thing to do is try your best to work on insecurities if you can whilst also embracing them along the way as it could be a likeable feature without you realising"],
+            "actions":["prioritise mental health to embrace and improve insecurities like intelligence","if actions can be taken to work on intelligence insecurities pinpoint and work on them"]
+        }
+    },
+    "Do you keep your cool in seemingly stressful situations?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am"],
+            "responses":["keeping your cool in situations allows you to think more clearly allowing thoughts and actions to be more intellectual"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["try and work on this as consistently keeping your cool in situations allows you to think more clearly allowing thoughts and actions to be more intellectual"],
+            "actions":["Take slower deeper breaths from the nose to improve calmness in stress","Take small breaks to walk around to combat stress without any technology distractions"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["try and realise that we all have strengths and weaknesses but people only pay attention to strengths but pay very little to weaknesses and go unnoticed in comparison to how you notice them therefore the best thing to do is try your best to work on insecurities if you can whilst also embracing them along the way as it could be a likeable feature without you realising"],
+            "actions":["Take slower deeper breaths from the nose to improve calmness in stress","Take small breaks to walk around to combat stress without any technology distractions"]
+        }
+    },
+    "If you are a student, Do you use active study techniques e.g. flashcards ensuring you've taken information from a textbook?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am"],
+            "responses":["solid, active recall is the right way to go!","using active recall is the right track!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["do this more often because its the most effective way to test your knowledge and therefore learn better"],
+            "actions":["make a few PAPER flashcards for each topic for revision to reduce distractions"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start doing this as its the most effective way to test your knowledge and therefore learn better"],
+            "actions":["make a few PAPER flashcards for each topic for revision to reduce distractions ensure you dual code with diagrams and symbols as much as possible"]
+        }
+    },
+    "If you are a student, Do you implement spaced repetition in your learning to understand information(learning the same info the next hour then day then week then month etc.)?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am"],
+            "responses":["solid, spaced repetition is the right way to go!","using spaced repetition is the right track!"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["I would suggest keeping track of this more intensively because it pays dividends in the long run by doing a little bit more work at the start in the short term"],
+            "actions":["use a calendar and note down the same content you need to revise over the year with the gaps becoming larger and larger"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start doing this as it pays dividends in the long run by doing a little bit more work at the start in the short term"],
+            "actions":["use a calendar and note down the same content you need to revise over the year with the gaps becoming larger and larger"]
+        }
+    },
+    "Do you use Shampoo in your hair once a week?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am"],
+            "responses":["nice, this is good for your hair"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["try and use it more often to keep your hair clean"],
+            "actions":["use your shampoo once a week"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you need to start using shampoo to clean your hair, without it your hair will look unkempt and inhibit hair growth"],
+            "actions":["buy a shampoo preferably one with natural substances","use shampoo that you buy once a week"]
+        }
+    },
+    "Do you use conditioner in your hair once a week?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am"],
+            "responses":["nice, this is good for your hair"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold"],
+            "responses":["try and use it more often to keep your hair clean and give it more of an extra glow"],
+            "actions":["use your conditioner once a week"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you need to start using conditioner to clean your hair as it will support hair growth and give it more of a glow for better appearance"],
+            "actions":["buy a conditioner preferably one with natural substances","use conditioner that you buy once a week"]
+        }
+    },
+    "Do you use a Dermaroller for your beard twice a week?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am","twice a week"],
+            "responses":["nice, this is good to promote denser hair growth in your beard"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold","once a week"],
+            "responses":["try and use it more often as beard growth will improve quicker"],
+            "actions":["use your dermaroller on your beard twice a week, making sure you use horizontal, vertical and diagonal stroked at least 20 times in the areas you want to increase facial hair growth"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["start doing it as it is known to improve hair growth by stimulating hair follicles more precisely"],
+            "actions":["buy any cheap dermaroller online","use the dermaroller on your beard twice a week, making sure you use horizontal, vertical and diagonal stroked at least 20 times in the areas you want to increase facial hair growth"]
+        }
+    },
+    "Do you eat lots of fruits and vegetables?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am","twice a week"],
+            "responses":["by eating fruits and vegetables you are getting lots of vitamins needed for growth, best ones are Vitamins B,C and E"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold","once a week"],
+            "responses":["eat these more often as they will give you more vitamins and minerals needed for better hair and beard growth"],
+            "actions":["eat small portions of at least 3 fruits and 3 vegetables every day for better hair and beard growth"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["if you aren't doing this then you aren't going to get any vitamins and minerals which are required for hair and beard growth"],
+            "actions":["eat small portions of at least 3 fruits and 3 vegetables every day for better hair and beard growth"]
+        }
+    },
+    "Do you cleanse your skin every day?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am","twice a week"],
+            "responses":["well done, by doing this you prevent small amounts of dirt clogging hair follicles which prevents hair growth"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold","once a week"],
+            "responses":["start doing this every day because the more you prevent the buildup the dirt the greater chance of improved hair growth as your hair follicles are less likely to get clogged"],
+            "actions":["cleanse your face using your cleanser for better hair and beard growth"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["you may have excess buildup of dirt in your hair follicles which can inhibit hair growth"],
+            "actions":["cleanse your face using your cleanser for better hair and beard growth"]
+        }
+    },
+    "Do you avoid alcohol and smoking consumption?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am","twice a week"],
+            "responses":["your saving yourself by doing so, of course we know this is important for general health but it affects hair growth as well if we are being pedantic"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold","once a week"],
+            "responses":["avoid this as much as you can if want to improve hair and beard growth"],
+            "actions":["avoid alcohol and smoking consumption whenever possible"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["avoid this as much as you can if want to improve hair and beard growth"],
+            "actions":["avoid alcohol and smoking consumption whenever possible"]
+        }
+    },
+    "Can you do anything about insecurities that you have?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am","twice a week"],
+            "responses":["Excellent, now you just need to put in the hard work to figure out how to do it, the best thing to do when you feel insecure is to take some action upon it if you can"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold","once a week"],
+            "responses":["If this insecurity is not in your full control, there's no point wasting time in worrying about it, instead learning to embrace it will make people appreciate you more, liklihood is that people don't actually notice it anyway"],
+            "actions":["use affirmations every day to establish identity acknowledging insecurities"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare"],
+            "responses":["If this insecurity is not in your full control, there's no point wasting time in worrying about it, instead learning to embrace it will make people appreciate you more, liklihood is that people don't actually notice it anyway"],
+            "actions":["use affirmations every day to establish identity acknowledging insecurities"]
+        }
+    },
+    "Do you ensure the highest possible reps*sets*weight for all aesthetic muscles in the gym throughout the week?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am","twice a week"],
+            "responses":["Excellent, the truth is this simple equation is the only thing you really need in order to start or improve the amount of muscle you are building"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold","once a week"],
+            "responses":["Try and do this more often as the rate at which your physique improves could be greater and it can help 'hide' insecurities by simply accentuating other parts of the body "],
+            "actions":["ensure progressive overload in the gym ensuring reps*sets*weight increases each week using a note app", "set targets with a note app for each workout for reps*sets*weights for each week and try and reach that goal every time, don't feel discouraged if you don't"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare","never went to the gym"],
+            "responses":["start doing this habit as the rate at which your physique improves could be greater and it can help 'hide' insecurities by simply accentuating other parts of the body"],
+            "actions":["start going to the gym","ensure progressive overload in the gym ensuring reps*sets*weight increases each week using a note app", "set targets with a note app for each workout for reps*sets*weights for each week and try and reach that goal every time, don't feel discouraged if you don't"]
+        }
+    },
+    "Do you do face workouts to tone face shape as best possible?":{
+        "type": "text",
+        "positive":{
+            "patterns":["yes","yeah","yep","regularly","all the time","often","daily","do it","too much","I am","twice a week"],
+            "responses":["Cool, if you are insecure about this kind of thing it can help to shape the face a little better"]
+        },
+        "medium":{
+            "patterns":["sometimes","inconsistent","every now and then","inconsistently","try to","most","somewhat","depends","in the middle","cold","once a week"],
+            "responses":["Try and do this more often if you think you can accentuate certain masculine features like jawline"],
+            "actions":["do any effective face workout of choice for 15 reps and 3 sets a day"]
+        },
+        "negative":{
+            "patterns":["no","don't","never done it before","never did it before","not","never","rarely","rare","never went to the gym"],
+            "responses":["do this if you think you can accentuate certain masculine features like jawline"],
+            "actions":["do any effective face workout of choice for 15 reps and 3 sets a day"]
+        }
+    }
+}
